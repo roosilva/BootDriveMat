@@ -1,0 +1,23 @@
+package br.edu.ifms.frameworks.bootdrive.model;
+
+public class Carro {
+    private Long id;
+    private String placa;
+
+    // Getters and Setters
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getPlaca() {
+        return placa;
+    }
+
+    public void setPlaca(String placa) {
+        this.placa = placa;
+    }
+}
